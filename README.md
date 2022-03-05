@@ -4,6 +4,15 @@ how to config ssh client and server (use conemu in windows)
 ### there are 2 (and more server) entity join the this game: client_1 and server1, server2 ...
 
 
+<img src="ssh1.jpg"/>
+
+<br/>
+<br/>
+
+
+<img src="ssh2.PNG"/>
+
+
 in client_1
 ```
 ssh-keygen -t rsa

@@ -26,7 +26,7 @@ ssh-copy-id ip_server_1
 
 in client_1 type the followding command to login server
 ```
-ssh-copy-id ip_server_1
+ssh root@ip_server_1
 ```
 
 config ssh in server to use password authen and key base authen

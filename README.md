@@ -19,10 +19,24 @@ ssh-keygen -t rsa
 cd ~/.ssh
 ```
 
+
 copy public key to server_1
 ```
 ssh-copy-id ip_server_1
+
+OR
+
+cat ~/.ssh/id_rsa.pub | ssh root@80.209.236.13 "cat >> ~/.ssh/authorized_keys" 
+
+OR
+
+copy content of file "~/.ssh/id_rsa.pub" (of client) append to file ~/.ssh/authorized_keys" (of server)
 ```
+OR
+```
+
+```
+
 
 in client_1 type the followding command to login server
 ```

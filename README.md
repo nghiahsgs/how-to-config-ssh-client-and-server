@@ -52,3 +52,8 @@ PubkeyAuthentication yes
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
+
+
+```
+systemctl restart sshd
+```

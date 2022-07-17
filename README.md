@@ -32,11 +32,6 @@ OR
 
 copy content of file "~/.ssh/id_rsa.pub" (of client) append to file ~/.ssh/authorized_keys" (of server)
 ```
-OR
-```
-
-```
-
 
 in client_1 type the followding command to login server
 ```
